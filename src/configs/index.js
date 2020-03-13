@@ -8,10 +8,5 @@ module.exports = {
     database: process.env.DB_NAME
   },
   port: process.env.PORT,
-  JWT_KEY: process.env.JWT_KEY,
-
-  redis: {
-    host: '127.0.0.1',
-    port: 6379
-  }
+  JWT_KEY: process.env.JWT_KEY
 }

@@ -5,7 +5,7 @@ module.exports = {
   payment: async (request, response) => {
     try {
       const payment = request.body
-      if (payment === undefined || payment === '') return console.log('Tidak ada data')
+      if (payment === undefined || payment === '') return console.log('undifined')
 
       var a = 0
       await payment.products.map(e => {
